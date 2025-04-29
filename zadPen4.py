@@ -69,7 +69,6 @@ class PatientList:
             if isinstance(patient, AdultPatient):
                 yield patient
 
-# Example Usage:
 if __name__ == "__main__":
     try:
         p1 = AdultPatient("Иван Иванов", 30, "Грип")
